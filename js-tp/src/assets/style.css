@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#map {
+    height: 100vh;
+    background-color: #6D776D;
+}
+
+
+.form-container {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 300px;
+    background-color: #c4bcb8;
+    padding: 10px;
+    z-index: 100;
+    height: 100vh;
+
+
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: -2px -2px #E5E5E5;
+    border: none;
+    font-size: 20px;
+
+}
+
+.mapboxgl-popup-content {
+    padding: 10px;
+    background: greenyellow;
+}
+
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.btn-danger {
+    display: block;
+}
+
+.mapboxgl-marker:hover {
+    cursor: pointer;
+}
+
+.show-popup {
+    display: block;
+}
+
+.marker {
+    color: green;
+}
+.mapboxgl-marker{
+    color: green;
+}
